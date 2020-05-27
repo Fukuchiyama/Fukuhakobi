@@ -4,34 +4,47 @@
 header {
   width: 100%;
 }
-.header-text {
-  text-align: center;
-}
-.header-text img {
-  width: 35%;
-  height: 50%
-  
+.header-picture {
+
 }
 .header-list {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   text-align: center;
-  height: 64px;
+  height: 120px;
 }
 .header-list ul {
   overflow:hidden;
   list-style:none;
-  margin: 0 auto;
   z-index: 20;
   text-align: center;
   display: inline-block;
-  color: white;
+  color: rgb(0, 0, 0);
+}
+.fab {
+  height: 10px;
+}
+.fa-twitter {
+  color: #4ea0ff;
+}
+.fa-line {
+  color: rgb(44, 230, 90);
+}
+.header-list img {
+  float: left;
+  padding:20px 20px 20px 60px;
+}
+.header-list ul{
+  
+}
+.header-list a {
 }
 .header-list li {
   list-style:none;
+  float: right;
   display: inline-block;
-  color: white;
-  padding: 20px 30px;
+  color: rgb(0, 0, 0);
   font-size: 20px;
+  margin: 50px 15px;
 }
 .header-logo {
   text-align: center;
@@ -39,29 +52,41 @@ header {
   padding-bottom: 80px;
   background-image: url(5.jpg);
   background-size: cover;
-
 }
 .header-logo h1 {
-  font-size: 40px;
+  font-size: 30px;
   padding: 30px;
-  color: #fff;
+  color: rgb(58, 248, 89);
   -webkit-text-stroke: 2px rgba(0, 0, 0, 0.836);
 }
 .header-logo h2 {
   font-size: 80px;
   padding: 30px;
-  color: rgb(0, 255, 13);
+  color: white;
   -webkit-text-stroke: 3px rgba(0, 0, 0, 0.836);
+  letter-spacing: 5px;
 }
 .header-logo p {
   font-size: 30px;
   padding: 30px;
   font-weight: bolder;
-  color: #fff;
+  color: rgb(115, 255, 87);
   -webkit-text-stroke: 2px rgba(0, 0, 0, 0.836);
 }
+.section-order-logo h3 {
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+}
+.section-order-logo h4 {
+  text-align: center;
+  padding-bottom: 60px;
+  font-size: 25px;
+  font-weight: lighter;
+}
 main {
-  margin: 50px;
+  margin: 100px 50px 150px 50px;
+  padding-bottom: 150px;
 }
 .main-shop {
   margin-bottom: 50px;
@@ -80,51 +105,85 @@ main {
   font-size: 20px;
 }
 .main-item-line1 {
-  float: left;;
+  float: left;
   width: 25%;
-  padding: 60px 0px;
+  padding: 60px 0;
   color: black;
-  height: 240px
-}
-.main-item-line1 img {
-  width: 100%;
-}
-.main-item-line1 h1 {
+  height: 240px;
   text-align: center;
-  margin-top: 40px;
 }
-.main-item-line1 p {
+.main-item-line2 {
+  float: left;
+  width: 25%;
+  padding: 0px 0px 60px 0;
+  color: black;
+  height: 300px
+}
+.main-item-line2 p {
+  margin: 0 20px 40px 20px;
+}
+.main-shop img {
+  width: 100%;
+  height: 300px;
+  width: 300px;
+}
+.main-shop h1 {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.main-shop p {
   font-size: 20px;
   margin: 40px 20px;
 }
 section {
-  height: 100%;
-  margin: 50px;
 }
 .section-order {
+  margin: 50px;
 } 
+.cection-order-logo {
+  padding: 50px;
+  margin: 50px;
+}
 .section-order-logo h1 {
   font-size: 45px;
   text-align: center;
   border-bottom: 5px solid green;
   color: green;
   font-weight: bolder;
-  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .section-order-logo h2 {
   text-align: center;
   color: green;
   font-size: 20px;
 }
+.section-order h3 {
+  padding: 20px;
+}
 .section-order-logo ul{
+  font-size: 25px;
 }
 .section-order-logo li {
   list-style: none;
   text-align: center;
-  
+  color: red;
+  margin-top: 50px;
+}
+.section-order-logo  p {
+  color: black;
+  font-weight: lighter;
+}
+.section-order-logo  h3{
+  max-width: 1500px;
+  width: 60%;
+  margin: 0 auto;
+}
+.section-order-logo ul a {
+  color: #0178ff;
 }
 .section-delivery {
-  margin-top: 50px;
+  margin: 150px 50px 0 50px;
 }
 .section-delivery h1 {
   font-size: 45px;
@@ -143,15 +202,38 @@ section {
   margin: 0 auto;
   padding: 0;
   width: 650px;
+  height: 150px;
   table-layout: fixed;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.section-delivery-table1 table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 650px;
+  height: 150px;
+  table-layout: fixed;
+  font-size: 20px;
+}
+.section-delivery-table1 tr {
+  background-color: #fff;
+  border: 3px solid #bbb;
+  border-top: 0px solid #bbb;
+  border-: 0px solid #bbb;
+  padding: .35em;
+  text-align: center;
+}
+.section-delivery-table1 td {
+
 }
 .section-delivery tr {
   background-color: #fff;
-  border: 1px solid #bbb;
+  border: 3px solid #bbb;
   padding: .35em;
+  text-align: center;
 }
-.section-delivery th {
-
+.section-delivery td {
 }
 .section-delivery p {
   text-align: center;
@@ -160,11 +242,12 @@ section {
 .section-delivery h3 {
   font-size: 45px;
   text-align: center;
+  padding-bottom: 50px;
 }
 .section-map {
-  margin-top: 50px;
+  padding: 50px;
   text-align: center;
-  background-color: rgb(236, 236, 234);
+  background-color: #ececea;
 }
 .section-map h1 {
   font-size: 45px;
@@ -183,34 +266,51 @@ section {
   height: 400px;
   margin: 50px;
 }
-footer {
+.start {
   margin: 50px;
+  text-decoration: none;
 }
-footer h1 {
+.start h1 {
   font-size: 45px;
   text-align: center;
-  border-bottom: 5px solid green;
+  border-bottom: 5px solid green ;
   color: green;
   font-weight: bolder;
 }
-footer h2 {
+.start h2 {
   text-align: center;
   color: green;
   font-size: 20px;
 }
-footer h3 {
+.start h3 {
   border-radius: 20px;
-  background-color: rgb(46, 184, 248);
+  background-color: rgb(252, 119, 42);
   padding: 30px;
   text-align: center;
   color: rgb(255, 250, 250);
   opacity: 1;
-  box-shadow: 0px 7px #0569ff;
+  box-shadow: 0px 7px #ad1e1e;
   margin: 50px 300px;
 }
-footer h3:active {
-  background-color: #0569ff;
+.start h3:active {
+  background-color: #ad1e1e;
   box-shadow: none;
   position: relative;
   top: 7px;
+}
+.start-btn {
+  padding: 0 100px;;
+  margin: 0 auto;
+  writing-mode: left;
+}
+.start-btn h3 {
+  text-decoration: none;
+}
+footer {
+  background-color: black;
+}
+footer p {
+  color: #fff;
+  padding-left: 20px;
+  text-align: center;
 }
