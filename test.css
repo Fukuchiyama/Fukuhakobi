@@ -12,6 +12,9 @@ header {
   text-align: center;
   height: 120px;
 }
+.header-list img{
+  display: inline-block;
+}
 @media (min-width: 768px) and (max-width: 1199px) {
   /* style */
   .header-list {
@@ -39,13 +42,13 @@ header {
   float: left;
   padding:20px 20px 20px 60px;
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 801px) and (max-width: 1199px) {
   .header-list img {
     padding: 0px;
   }
 }
 .header-list ul{
-  
+  padding-top: 20px;
 }
 .header-list a {
 }
@@ -56,8 +59,9 @@ header {
   color: rgb(0, 0, 0);
   font-size: 20px;
   margin: 50px 15px;
+  padding-left: 30px;
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 801px) and (max-width: 1199px) {
   .header-list li {
     margin: 0px;
   }
@@ -70,7 +74,7 @@ header {
   background-image: url(5.jpg);
   background-size: cover;
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 801px) and (max-width: 1199px) {
   /* style */
   .header-logo {
     height: 400px;
@@ -90,11 +94,15 @@ header {
   -webkit-text-stroke: 3px rgba(0, 0, 0, 0.836);
   letter-spacing: 5px;
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 801px) and (max-width: 1199px) {
   /* style */
   .header-logo h2 {
     font-size: 70px;
   }
+}
+.cection-order-logo h1{
+  padding-top: 200px;
+  margin-top: 200px;
 }
 .section-order-logo h3 {
   text-align: center;
@@ -107,13 +115,13 @@ header {
   font-size: 25px;
   font-weight: lighter;
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 801px) and (max-width: 1199px) {
   .section-order-logo h4 {
     font-size: 20px;
   }
 }
 main {
-  margin: 100px 50px 150px 50px;
+  margin: 100px 50px 400px 50px;
   padding-bottom: 150px;
 }
 .main-shop {
@@ -127,7 +135,7 @@ main {
   color: green;
   font-weight: bolder;
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 801px) and (max-width: 1199px) {
   .main-logo h1 {
     font-size: 40px;
   }
@@ -139,11 +147,18 @@ main {
 }
 .main-item-line1 {
   float: left;
-  width: 25%;
-  padding: 60px 0;
+  width: 50%;
+  padding: 80px 0;
   color: black;
   height: 240px;
   text-align: center;
+}
+.cection-order-logo h1{
+  padding-top: 200px;
+  margin-top: 200px;
+}
+.main-item-line1 p {
+  margin: 0 auto;
 }
 .main-item-line2 {
   float: left;
@@ -186,7 +201,7 @@ section {
   margin-left: 50px;
   margin-right: 50px;
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 801px) and (max-width: 1199px) {
   .section-order-logo h1 {
     font-size: 40px;
   }
@@ -279,7 +294,8 @@ section {
 }
 .section-delivery img {
   text-align: center;
-  margin: 50px 220px 0 235px;
+  /* margin: 50px 220px 0 235px; */
+  width: 100%;
 }
 .section-delivery h3 {
   font-size: 45px;
@@ -355,4 +371,275 @@ footer p {
   color: #fff;
   padding-left: 20px;
   text-align: center;
+}
+@media screen and (max-width: 800px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+.header-list img{
+  width: 50%;
+  float: left;
+  padding: 0px;
+}
+  .list{
+  display: none;
+}
+  main{
+    margin-bottom: 400px;
+  }
+.header-list ul{
+  padding-left: 0px;
+}
+.header-list i{
+  width: 25px;
+  height: 25px;
+}
+.fa-twitter{
+  float: right;
+}
+.fa-line{
+  float: right;
+}
+.main-item-line1{
+  width: 50%;
+  padding-bottom: 200px;
+}
+.main-item-line1 h1 {
+  margin: 0;
+  font-size: 20px;
+}
+.main-item-line2 p{
+  display: none;
+}
+.main-item-line1 img{
+  flex-wrap: wrap;
+  height: 100px;
+  width: 100px;
+}
+.main-item-line2 h1{
+  display: none;
+}
+.section-delivery img{
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+.section-delivery h3{
+  font-size: 30px;
+}
+.section-map img{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+.start-btn h3{
+  margin: 0;
+}
+.start-btn p{
+  font-size: 20px;
+}
+main{
+  margin-bottom: 0;
+  padding: 0;
+}
+.main-item-line1{
+  padding-bottom: 0;
+  height: 20%;
+}
+.main-shop{
+  margin: 0;
+}
+.header-logo h2{
+  font-size: 45px;
+}
+.header-logo p{
+  font-size: 35px;
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.836);
+}
+.main-item-line2{
+  height: 25%;
+  padding: 0;
+}
+.main-item-line2 h1{
+  font-size: 25px;
+}
+.nav-open{
+  padding-top: 50px;
+  padding-left: 100px;
+}
+}
+@media screen and (min-width: 801px){
+.main-item-line1 p{
+  display: none;
+}
+
+}
+#nav-drawer {
+  position: relative;
+}
+
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+  display:none;
+}
+
+/*アイコンのスペース*/
+#nav-open {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+/*ハンバーガーアイコンをCSSだけで表現*/
+#nav-open span, #nav-open span:before, #nav-open span:after {
+  position: absolute;
+  height: 3px;/*線の太さ*/
+  width: 25px;/*長さ*/
+  border-radius: 3px;
+  background: #555;
+  display: block;
+  content: '';
+  cursor: pointer;
+}
+#nav-open span:before {
+  bottom: -8px;
+}
+#nav-open span:after {
+  bottom: -16px;
+}
+
+/*閉じる用の薄黒カバー*/
+#nav-close {
+  display: none;/*はじめは隠しておく*/
+  position: fixed;
+  z-index: 99;
+  top: 0;/*全体に広がるように*/
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
+
+/*中身*/
+#nav-content {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;/*最前面に*/
+  width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+  max-width: 330px;/*最大幅（調整してください）*/
+  height: 100%;
+  background: #fff;/*背景色*/
+  transition: .3s ease-in-out;/*滑らかに表示*/
+  -webkit-transform: translateX(-105%);
+  transform: translateX(-105%);/*左に隠しておく*/
+}
+
+/*チェックが入ったらもろもろ表示*/
+#nav-input:checked ~ #nav-close {
+  display: block;/*カバーを表示*/
+  opacity: .5;
+}
+
+#nav-input:checked ~ #nav-content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);/*中身を表示（右へスライド）*/
+  box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+.nav-drawer{
+  float: right;
+  display: inline-block;
+}
+@media (max-width: 800px) {
+  .nav-drawer {
+    float: right;
+    display: inline-block;
+    width: 10%;
+    margin-top: 100px;
+  }
+  .header-list{
+    width: 90%;
+    display: inline-block;
+  }
+  .header-logo {
+    padding: 0px;
+  }
+
+  .section-order-logo h1{
+    font-size: 30px;
+  }
+  .section-order-logo h4{
+    font-size: 20px;
+  }
+  .main-logo h1{
+    font-size: 30px;
+  }
+  .main-item-line2 p{
+    display: none;
+  }
+  .main-item-line1 h1 {
+
+  }
+}
+@media screen (min-width: 801px;) and (max-width: 1199px) {
+  /* style */
+  .header-list{
+    height: 80px;
+  }
+  .list{
+    display: none;
+  }
+  .list li{
+    padding-left: 5px;
+  }
+  .header-list img{
+    padding: 0px;
+  }
+  .header-list li{
+    margin: 0px;
+    padding: 5px;
+  }
+  .header-logo{
+    height: 230px;
+    padding: 0;
+  }
+  .header-logo h2{
+    font-size: 60px;
+  }
+  .section-order-logo h4{
+    font-size: 20px;
+  }
+  .main-logo h1{
+    font-size: 40px;
+  }
+  .main-item-line1 {
+    width: 25%;
+    
+  }
+  .main-item-line2{
+    display: none;
+  }
+  .cection-order-logo h1{
+    font-size: 40px;
+  }
+  .cection-order-logo ul{
+    font-size: 20px;
+  }
+  .section-delivery img{
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
+  .section-map img{
+    height: 300px;
+    text-align: center;
+    margin: auto;
+  }
+  .start h3{
+    margin: 50px 0;
+  }
+
 }
