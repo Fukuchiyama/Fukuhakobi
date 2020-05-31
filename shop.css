@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+}
+header {
+  width: 100%;
+}
+.header-picture {
+
+}
+.header-list {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 120px;
+}
+@media (min-width: 640px) and (max-width: 1199px) {
+  /* style */
+  .header-list {
+    height: 80px;
+  }
+}
+.header-list ul {
+  overflow:hidden;
+  list-style:none;
+  z-index: 20;
+  text-align: center;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+}
+.fab {
+  height: 10px;
+}
+.fa-twitter {
+  color: #4ea0ff;
+}
+.fa-line {
+  color: rgb(44, 230, 90);
+}
+.header-list img {
+  float: left;
+  padding:20px 20px 20px 60px;
+}
+@media (min-width: 640px) and (max-width: 1199px) {
+  .header-list img {
+    padding: 0px;
+  }
+}
+.header-list ul{
+  
+}
+.header-list a {
+}
+.header-list li {
+  list-style:none;
+  float: right;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin: 50px 15px;
+}
+@media (min-width: 640px) and (max-width: 1199px) {
+  .header-list li {
+    margin: 0px;
+  }
+  
+}
+.header-logo {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url(5.jpg);
+  background-size: cover;
+}
+@media (min-width: 640px) and (max-width: 1199px) {
+  /* style */
+  .header-logo {
+    height: 230px;
+    padding: 0;
+  }
+}
+.header-logo h1 {
+  font-size: 30px;
+  padding: 30px;
+  color: rgb(58, 248, 89);
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.836);
+}
+.header-logo h2 {
+  font-size: 100px;
+  padding: 30px;
+  color: white;
+  -webkit-text-stroke: 3px rgba(0, 0, 0, 0.836);
+  letter-spacing: 5px;
+}
+@media (min-width: 640px) and (max-width: 1199px) {
+  /* style */
+  .header-logo h2 {
+    font-size: 60px;
+  }
+}
+main {
+  margin: 50px;
+}
+.main-logo h1{
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 5px solid green;
+  color: green;
+  font-weight: bolder;
+}
+@media (min-width: 640px) and (max-width: 1199px) {
+  .main-logo h1 {
+    font-size: 40px;
+  }
+}
+.main-logo h2 {
+  text-align: center;
+  color: green;
+  font-size: 20px;
+}
+.main-item {
+  float: left;;
+  width: 50%;
+  padding: 60px 0px;
+  color: black;
+  height: 240px
+  mar
+}
+.main-item img {
+  float: left;
+  width: 50%;
+}
+.main-item h1 {
+  padding: 30px;
+}
+.main-item p {
+  font-size: 20px;
+}
+
+
+footer {
+  background-color: black;
+  height: 30px;
+}
+footer p {
+  color: #fff;
+  padding-left: 20px;
+  text-align: center;
+}
