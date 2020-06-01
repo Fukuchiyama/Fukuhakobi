@@ -15,7 +15,7 @@ header {
 .header-list img{
   display: inline-block;
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 901px) and (max-width: 1199px) {
   /* style */
   .header-list {
     height: 80px;
@@ -42,7 +42,7 @@ header {
   float: left;
   padding:20px 20px 20px 60px;
 }
-@media (min-width: 801px) and (max-width: 1199px) {
+@media (min-width: 901px) and (max-width: 1199px) {
   .header-list img {
     padding: 0px;
   }
@@ -59,11 +59,11 @@ header {
   color: rgb(0, 0, 0);
   font-size: 20px;
   margin: 50px 15px;
-  padding-left: 30px;
 }
-@media (min-width: 801px) and (max-width: 1199px) {
+@media (min-width: 901px) and (max-width: 1199px) {
   .header-list li {
     margin: 0px;
+    padding-left: 15px;
   }
   
 }
@@ -74,7 +74,7 @@ header {
   background-image: url(5.jpg);
   background-size: cover;
 }
-@media (min-width: 801px) and (max-width: 1199px) {
+@media (min-width: 901px) and (max-width: 1199px) {
   /* style */
   .header-logo {
     height: 400px;
@@ -94,7 +94,7 @@ header {
   -webkit-text-stroke: 3px rgba(0, 0, 0, 0.836);
   letter-spacing: 5px;
 }
-@media (min-width: 801px) and (max-width: 1199px) {
+@media (min-width: 901px) and (max-width: 1199px) {
   /* style */
   .header-logo h2 {
     font-size: 70px;
@@ -115,17 +115,17 @@ header {
   font-size: 25px;
   font-weight: lighter;
 }
-@media (min-width: 801px) and (max-width: 1199px) {
+@media (min-width: 901px) and (max-width: 1199px) {
   .section-order-logo h4 {
     font-size: 20px;
   }
 }
 main {
   margin: 100px 50px 400px 50px;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
 }
 .main-shop {
-  margin-bottom: 50px;
+  margin-bottom: 200px;
   height: 500px;
 }
 .main-logo h1{
@@ -135,7 +135,7 @@ main {
   color: green;
   font-weight: bolder;
 }
-@media (min-width: 801px) and (max-width: 1199px) {
+@media (min-width: 901px) and (max-width: 1199px) {
   .main-logo h1 {
     font-size: 40px;
   }
@@ -150,7 +150,7 @@ main {
   width: 50%;
   padding: 80px 0;
   color: black;
-  height: 240px;
+  height: 400px;
   text-align: center;
 }
 .cection-order-logo h1{
@@ -183,6 +183,10 @@ main {
   font-size: 20px;
   margin: 40px 20px;
 }
+.main-shop h3 {
+  text-align: center;
+  font-size: 30px;
+}
 section {
 }
 .section-order {
@@ -201,7 +205,7 @@ section {
   margin-left: 50px;
   margin-right: 50px;
 }
-@media (min-width: 801px) and (max-width: 1199px) {
+@media (min-width: 901px) and (max-width: 1199px) {
   .section-order-logo h1 {
     font-size: 40px;
   }
@@ -357,12 +361,14 @@ section {
   top: 7px;
 }
 .start-btn {
-  padding: 0 100px;;
+  padding: 0;
   margin: 0 auto;
-  writing-mode: left;
+  width: 100%;
 }
 .start-btn h3 {
   text-decoration: none;
+}
+.start-btn p {
 }
 footer {
   background-color: black;
@@ -372,7 +378,7 @@ footer p {
   padding-left: 20px;
   text-align: center;
 }
-@media screen and (max-width: 800px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+@media screen and (max-width: 900px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
 .header-list img{
   width: 50%;
   float: left;
@@ -421,6 +427,9 @@ footer p {
   height: auto;
   margin: 0;
 }
+.section-delivery h1{
+  font-size: 30px;
+}
 .section-delivery h3{
   font-size: 30px;
 }
@@ -465,12 +474,24 @@ main{
   padding-top: 50px;
   padding-left: 100px;
 }
+.ditail h3 {
+  text-align: center;
+  font-size: 20px;
 }
-@media screen and (min-width: 801px){
+.section-map h1{
+  font-size: 30px;
+}
+.start h1{
+  font-size: 30px;
+}
+.section-order-logo ul{
+  padding-left: 0;
+}
+}
+@media screen and (min-width: 901px){
 .main-item-line1 p{
   display: none;
 }
-
 }
 #nav-drawer {
   position: relative;
@@ -552,7 +573,7 @@ main{
   float: right;
   display: inline-block;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .nav-drawer {
     float: right;
     display: inline-block;
@@ -562,11 +583,15 @@ main{
   .header-list{
     width: 90%;
     display: inline-block;
+    height: 80px;
   }
   .header-logo {
     padding: 0px;
   }
-
+  .header-list ul {
+    height: 80px;
+    padding: 0em;
+  }
   .section-order-logo h1{
     font-size: 30px;
   }
@@ -583,10 +608,13 @@ main{
 
   }
 }
-@media screen (min-width: 801px;) and (max-width: 1199px) {
+@media screen (min-width: 901px;) and (max-width: 1199px) {
   /* style */
   .header-list{
     height: 80px;
+  }
+  main {
+    margin-bottom: 200px;
   }
   .list{
     display: none;
