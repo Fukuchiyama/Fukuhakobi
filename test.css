@@ -147,7 +147,7 @@ main {
 }
 .main-item-line1 {
   float: left;
-  width: 50%;
+  width: 33%;
   padding: 80px 0;
   color: black;
   height: 400px;
@@ -455,6 +455,7 @@ main{
 }
 .main-shop{
   margin: 0;
+  padding-bottom: 200px;
 }
 .header-logo h2{
   font-size: 45px;
