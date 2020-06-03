@@ -75,10 +75,16 @@ header {
   background-image: url(5.jpg);
   background-size: cover;
 }
+@media (min-width: 901px) {
+  .header-logo br {
+    display: none;
+  }
+}
+
 @media (min-width: 901px) and (max-width: 1199px) {
   /* style */
   .header-logo {
-    height: 400px;
+    height: 300px;
     padding: 0;
   }
 }
@@ -385,6 +391,9 @@ footer p {
   float: left;
   padding: 0px;
 }
+.header-logo br {
+
+}
   .list{
   display: none;
 }
@@ -394,7 +403,7 @@ footer p {
 .header-list ul{
   padding-left: 0px;
 }
-.header-list i{
+.header-list li{
   width: 25px;
   height: 25px;
 }
